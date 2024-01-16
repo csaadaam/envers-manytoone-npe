@@ -1,6 +1,6 @@
 # Envers ManyToOne NPE
 
-This is a simpe project for showcasing a NullPointerException occuring in Hibernate Envers.
+This is a simple project for showcasing a NullPointerException occuring in Hibernate Envers.
 A many-to-many relationship between Document and Employee is represented with an entity, with additional fields.
 
 When a Document entity is saved, the RevisionListener kicks in. In this custom listener the AuditReader cannot create the revisioned entity.
